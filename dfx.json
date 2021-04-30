@@ -3,19 +3,6 @@
     "hzl_nft": {
       "main": "src/hzl_nft/main.mo",
       "type": "motoko"
-    },
-    "hzl_nft_assets": {
-      "dependencies": [
-        "hzl_nft"
-      ],
-      "frontend": {
-        "entrypoint": "src/hzl_nft_assets/public/index.js"
-      },
-      "source": [
-        "src/hzl_nft_assets/assets",
-        "dist/hzl_nft_assets/"
-      ],
-      "type": "assets"
     }
   },
   "defaults": {
